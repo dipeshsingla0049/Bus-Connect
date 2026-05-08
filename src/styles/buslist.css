@@ -1,0 +1,19 @@
+.bus-list {
+  padding: 40px 0;
+}
+
+.bus-card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--shadow);
+}
+
+.bus-buttons {
+    display: flex;
+    gap: 12px;
+}
