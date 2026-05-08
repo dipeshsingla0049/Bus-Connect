@@ -1,0 +1,28 @@
+/* confirmation.css */
+
+.confirmation-page {
+  padding: 60px 0;
+}
+
+.confirmation-card {
+  background: white;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 28px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.confirmation-card h1 {
+  margin-bottom: 20px;
+}
+
+.confirmation-card p {
+  margin-top: 12px;
+  color: var(--light-text);
+}
+
+.confirmation-card .btn {
+  margin-top: 30px;
+}
