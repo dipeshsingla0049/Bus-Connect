@@ -1,0 +1,22 @@
+/* mybookings.css */
+
+.my-bookings {
+  padding: 40px 0;
+}
+
+.booking-card {
+  background: white;
+  border-radius: 24px;
+  padding: 24px;
+  margin-top: 20px;
+  box-shadow: var(--shadow);
+}
+
+.booking-card h2 {
+  margin-bottom: 12px;
+}
+
+.booking-card p {
+  margin-top: 8px;
+  color: var(--light-text);
+}
