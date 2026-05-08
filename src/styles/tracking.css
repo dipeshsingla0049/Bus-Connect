@@ -1,0 +1,181 @@
+.tracking-page {
+  padding: 35px 0;
+}
+
+.tracking-top {
+  margin-bottom: 25px;
+}
+
+.tracking-top h1 {
+  font-size: 30px;
+}
+
+.tracking-top p {
+  color: var(--light-text);
+  margin-top: 5px;
+}
+
+.status-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 18px;
+
+  margin-bottom: 20px;
+}
+
+.track-card,
+.timeline-card,
+.details-card {
+  background: white;
+
+  border-radius: 22px;
+
+  padding: 24px;
+
+  box-shadow: var(--shadow);
+
+  margin-bottom: 20px;
+}
+
+.card-head {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.live {
+  color: #059669;
+
+  font-weight: 600;
+}
+
+.info-row {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.info-row p,
+.eta-box p,
+.detail-box p,
+.stop-box p {
+  color: var(--light-text);
+
+  font-size: 13px;
+
+  margin-bottom: 6px;
+}
+
+.eta-box {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-top: 25px;
+}
+
+.delay {
+  color: #ef4444;
+}
+
+.timeline {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin: 40px 0;
+}
+
+.timeline-stop {
+  text-align: center;
+
+  flex: 1;
+
+  position: relative;
+}
+
+.dot {
+  width: 18px;
+
+  height: 18px;
+
+  border-radius: 50%;
+
+  background: #ddd;
+
+  margin: auto;
+
+  margin-bottom: 10px;
+}
+
+.active {
+  background: var(--primary-color);
+}
+
+.stop-boxes {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 18px;
+}
+
+.stop-box,
+.detail-box {
+  background: var(--bg-color);
+
+  border-radius: 16px;
+
+  padding: 18px;
+}
+
+.details-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 18px;
+
+  margin-top: 25px;
+}
+
+.tracking-buttons {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 18px;
+
+  margin-top: 20px;
+}
+
+.back-btn,
+.book-btn {
+  height: 54px;
+
+  border: none;
+
+  border-radius: 18px;
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.back-btn {
+  background: white;
+
+  border: 1px solid var(--border-color);
+}
+
+.book-btn {
+  background: var(--primary-color);
+
+  color: white;
+}
